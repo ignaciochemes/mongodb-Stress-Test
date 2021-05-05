@@ -1,0 +1,21 @@
+{
+  "name": "mdbStresser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stressForFunctions.js",
+  "scripts": {
+    "dev-functions": "nodemon stressForFunctions.js",
+    "dev-postman": "nodemon stressPostman.js",
+    "stress-functions": "node stressForFunctions.js",
+    "stress-postman": "node stressPostman.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7"
+  }
+}
